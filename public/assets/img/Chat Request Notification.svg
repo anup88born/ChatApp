@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-Chat_Request_Notification">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="Chat_Request_Notification" data-name="Chat Request Notification" clip-path="url(#clip-Chat_Request_Notification)">
+    <g id="Group_1310" data-name="Group 1310" transform="translate(-1306 -144)">
+      <circle id="Ellipse_504" data-name="Ellipse 504" cx="22.5" cy="22.5" r="22.5" transform="translate(1309 147)" fill="#1e3574" opacity="0.073"/>
+      <g id="Group_502" data-name="Group 502" transform="translate(1179.342 140.642)">
+        <g id="comment" transform="translate(140.799 18.648)">
+          <path id="Path_703" data-name="Path 703" d="M19.205-.853H3.062A3.065,3.065,0,0,0,0,2.208v9.88a3.065,3.065,0,0,0,3.05,3.061v4.483l6.443-4.483h9.712a3.065,3.065,0,0,0,3.061-3.061V2.208A3.065,3.065,0,0,0,19.205-.853Zm1.757,12.941a1.759,1.759,0,0,1-1.757,1.757H9.084L4.355,17.135V13.844H3.062a1.759,1.759,0,0,1-1.757-1.757V2.208A1.758,1.758,0,0,1,3.062.451H19.205a1.758,1.758,0,0,1,1.757,1.757Zm0,0" transform="translate(0 0.853)" fill="#1e3574" stroke="#1e3574" stroke-width="0.4"/>
+          <path id="Path_704" data-name="Path 704" d="M109.735,84.032h10.347v1.3H109.735Zm0,0" transform="translate(-103.775 -79.422)" fill="#1e3574" stroke="#1e3574" stroke-width="0.4"/>
+          <path id="Path_705" data-name="Path 705" d="M109.735,135.282h10.347v1.3H109.735Zm0,0" transform="translate(-103.775 -127.889)" fill="#1e3574" stroke="#1e3574" stroke-width="0.4"/>
+          <path id="Path_706" data-name="Path 706" d="M109.735,186.532h10.347v1.3H109.735Zm0,0" transform="translate(-103.775 -176.356)" fill="#1e3574" stroke="#1e3574" stroke-width="0.4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

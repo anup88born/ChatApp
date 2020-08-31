@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-CRM_Info_-_Service_Info_Inactive">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="CRM_Info_-_Service_Info_Inactive" data-name="CRM Info - Service Info Inactive" clip-path="url(#clip-CRM_Info_-_Service_Info_Inactive)">
+    <g id="Group_1295" data-name="Group 1295" transform="translate(2 2)">
+      <path id="Path_667" data-name="Path 667" d="M10.137,0A10.137,10.137,0,1,0,20.273,10.137,10.137,10.137,0,0,0,10.137,0Zm0,19.6A9.461,9.461,0,1,1,19.6,10.137,9.461,9.461,0,0,1,10.137,19.6Z" fill="#757776" stroke="#757776" stroke-width="0.4"/>
+      <path id="Path_668" data-name="Path 668" d="M137.123,112.338h-.676V112h-.676v.338H135.1V112h-.676v.338h-.676V112h-.676v.338h-.676V112h-.676v.338h-.676V112h-.676v.338h-.676V112h-.676v.338h-.676a.338.338,0,0,0-.338.338v9.461a.338.338,0,0,0,.338.338h8.785a.338.338,0,0,0,.338-.338v-9.461A.338.338,0,0,0,137.123,112.338Zm-.338,9.461h-8.109v-8.785h.338v.338h.676v-.338h.676v.338h.676v-.338h.676v.338h.676v-.338h.676v.338h.676v-.338h.676v.338h.676v-.338h.676v.338h.676v-.338h.338Z" transform="translate(-122.594 -107.27)" fill="#757776" stroke="#757776" stroke-width="0.4"/>
+      <path id="Path_669" data-name="Path 669" d="M168,184h6.082v.676H168Z" transform="translate(-160.904 -176.229)" fill="#757776" stroke="#757776" stroke-width="0.4"/>
+      <path id="Path_670" data-name="Path 670" d="M168,232h6.082v.676H168Z" transform="translate(-160.904 -222.201)" fill="#757776" stroke="#757776" stroke-width="0.4"/>
+      <path id="Path_671" data-name="Path 671" d="M168,280h6.082v.676H168Z" transform="translate(-160.904 -268.174)" fill="#757776" stroke="#757776" stroke-width="0.4"/>
+    </g>
+  </g>
+</svg>

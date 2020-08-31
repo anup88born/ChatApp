@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.068" height="19.231" viewBox="0 0 20.068 19.231">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#172b4d}
+        </style>
+    </defs>
+    <g id="prefix__Group_188" data-name="Group 188" transform="translate(0 -10.667)">
+        <g id="prefix__Group_183" data-name="Group 183" transform="translate(0 24.045)">
+            <g id="prefix__Group_182" data-name="Group 182">
+                <path id="prefix__Path_498" d="M19.232 354.09H17a2.907 2.907 0 0 0-5.58 0H.836a.836.836 0 0 0 0 1.672h10.588a2.907 2.907 0 0 0 5.58 0h2.227a.836.836 0 0 0 0-1.672zm-5.017 2.09a1.254 1.254 0 1 1 1.254-1.254 1.256 1.256 0 0 1-1.254 1.255z" class="prefix__cls-1" data-name="Path 498" transform="translate(0 -352)"/>
+            </g>
+        </g>
+        <g id="prefix__Group_185" data-name="Group 185" transform="translate(0 10.667)">
+            <g id="prefix__Group_184" data-name="Group 184">
+                <path id="prefix__Path_499" d="M19.232 12.757H17a2.907 2.907 0 0 0-5.58 0H.836a.836.836 0 0 0 0 1.672h10.588a2.907 2.907 0 0 0 5.58 0h2.227a.836.836 0 0 0 0-1.672zm-5.017 2.09a1.254 1.254 0 1 1 1.254-1.254 1.256 1.256 0 0 1-1.254 1.255z" class="prefix__cls-1" data-name="Path 499" transform="translate(0 -10.667)"/>
+            </g>
+        </g>
+        <g id="prefix__Group_187" data-name="Group 187" transform="translate(0 17.356)">
+            <g id="prefix__Group_186" data-name="Group 186">
+                <path id="prefix__Path_500" d="M19.232 183.424H8.643a2.907 2.907 0 0 0-5.58 0H.836a.836.836 0 1 0 0 1.672h2.227a2.907 2.907 0 0 0 5.58 0h10.588a.836.836 0 0 0 0-1.672zm-13.378 2.09a1.254 1.254 0 1 1 1.254-1.254 1.256 1.256 0 0 1-1.255 1.255z" class="prefix__cls-1" data-name="Path 500" transform="translate(0 -181.334)"/>
+            </g>
+        </g>
+    </g>
+</svg>

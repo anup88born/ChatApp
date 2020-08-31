@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-Auto_Pay_Swicth">
+      <rect width="34" height="34"/>
+    </clipPath>
+  </defs>
+  <g id="Auto_Pay_Swicth" data-name="Auto Pay Swicth" clip-path="url(#clip-Auto_Pay_Swicth)">
+    <g id="Group_1308" data-name="Group 1308" transform="translate(1 6)">
+      <g id="Group_485" data-name="Group 485">
+        <path id="Path_697" data-name="Path 697" d="M21.509,85.333H10.754a10.754,10.754,0,1,0,0,21.509H21.509a10.754,10.754,0,0,0,0-21.509Zm0,18.82a8.066,8.066,0,1,1,8.066-8.066A8.075,8.075,0,0,1,21.509,104.153Z" transform="translate(0 -85.333)" fill="#47afaf"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,3153 @@
+@font-face{
+   font-family: ProximaNova;
+   src:url('/assets/proxima/PROXIMANOVA-BOLD-WEBFONT.TTF')
+}
+
+@font-face{
+   font-family: ProximaNovaThin;
+   src:url('/assets/proxima/PROXIMANOVA-REG-WEBFONT.TTF')
+}
+
+.dashboard{
+   background: #f2f4f5;
+}
+
+.row
+{
+   margin-right:0 !important;
+}
+
+#header
+{
+   margin: 0 !important;
+   height: 100px;
+   background-color: #009ce8;
+   display: flex;
+   flex-direction: row;
+   position: fixed;
+   z-index: 9;
+   width: 100%;
+}
+.dashboard
+{
+   /* height: 100vh; */
+   margin: 0;
+   padding: 0;
+}
+ body {
+   background: #f2f4f5 !important;
+   height: 100%;
+} 
+html {
+  height: 100%;
+}
+img{
+   cursor: pointer;
+}
+.logo
+{
+ 
+   margin: 20px 20px 0 10px;
+   border-radius: 100%;
+   width: 60px;
+   height: 60px;
+   background-color: rgba(255, 255, 255, 0.26);
+}
+.chatUser-logo
+{
+   margin: 12px 10px 0 -10px;
+   border-radius: 100%;
+   width: 30px;
+   height: 30px;
+   background-color: rgba(255, 255, 255, 0.26);
+}
+
+.title
+{
+   margin: 38px 0 0 0;
+   width: 327px;
+   height: 39px;
+   font-family: ProximaNova;
+   font-size: 25px;
+   
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.1;
+   letter-spacing: normal;
+   text-align: left;
+   color: #ffffff;
+   display: flex;
+}
+.rate{
+   margin: 30px 10px 0 -10px;
+}
+.rateTxt
+{
+  
+   font-family: ProximaNova;
+   font-size: 19px;
+   
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.11;
+   letter-spacing: normal;
+   text-align: left;
+   color: #ffffff;
+}
+p.work {
+	padding-left: 6px;
+	font-family: proximanovathin;
+}
+.rateDes
+{
+   font-family: ProximaNova;
+   font-size: 8px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.18;
+   letter-spacing: normal;
+   text-align: left;
+   color: #ffffff;
+  
+}
+
+.name
+{
+  
+       width: 70px;
+       height: 19px;
+       font-family: ProximaNova;
+       font-size: 15px;
+       font-weight: 600;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.33;
+       letter-spacing: normal;
+       text-align: left;
+       color: #ffffff;
+       margin-left: 20px;
+   
+}
+
+.notify
+{
+   margin: 20px 0 0 0;
+}
+
+.bell
+{
+   margin-top: 15px;
+
+}
+.help-circle
+{
+   margin-top: 15px;
+}
+
+/* CSS for Side Bar  */
+.sidebar {
+   width: 100px;
+   height: auto;
+   box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.08);
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+   bottom: 0;
+   top: 14%;
+}
+
+.sidebar-icons-chats
+{
+   width: 17px;
+   height: 50px;
+   margin: 5px 0px 0px 35px !important;
+   /* margin : 31px 15px 0px 15px; */
+   object-fit: contain;
+}
+
+.sidebar-text-chats
+{
+   width: 100%;
+   height: 14px;
+   font-family: ProximaNova;
+   font-size: 12px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 0.2;
+   letter-spacing: normal;
+   text-align: center;
+   color: #606060;
+}
+
+
+.sidebar-icons-team
+{
+   width: 17px;
+   height: 17px;
+   margin: 36px 37px 0px 36px;
+   object-fit: contain;
+}
+
+.sidebar-text-team
+{
+   width: 30px;
+   height: 14px;
+   font-family: ProximaNova;
+   font-size: 12px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 0.2;
+   letter-spacing: normal;
+   text-align: left;
+   color: #606060;
+   margin: 19px 37px 0px 26px;
+}
+
+.sidebar-icons-archives
+{
+   width: 27px;
+   height: 27px;
+   margin: 36px 37px 0px 36px;
+   object-fit: contain;
+}
+a {
+    color: #009ce8 !important;
+}
+.sidebar-text-archives
+{
+   width: 30px;
+   height: 14px;
+   font-family: ProximaNova;
+   font-size: 12px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 0.2;
+   letter-spacing: normal;
+   text-align: left;
+   color: #606060;
+   margin: 19px 37px 0px 28px;
+}
+
+.sidebar-icons-agents
+{
+   width: 27px;
+   height: 27px;
+   margin: 36px 37px 0px 36px;
+   object-fit: contain;
+}
+
+.sidebar-text-agents
+{
+   width: 30px;
+   height: 14px;
+   font-family: ProximaNova;
+   font-size: 12px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 0.2;
+   letter-spacing: normal;
+   text-align: left;
+   color: #606060;
+   margin: 15px 37px 0px 32px;
+}
+
+.sidebar-icons-tickets
+{
+   width: 27px;
+   height: 28px;
+   margin: 36px 37px 0px 36px;
+   object-fit: contain;
+}
+
+.sidebar-text-tickets
+{
+   width: 30px;
+   height: 14px;
+   font-family: ProximaNova;
+   font-size: 12px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 0.2;
+   letter-spacing: normal;
+   text-align: left;
+   color: #606060;
+   margin: 15px 37px 0px 32px;
+}
+
+.sidebar-icons-settings
+{
+   width: 27px;
+   height: 27px;
+   margin: 36px 37px 0px 36px;
+   object-fit: contain;
+}
+
+.sidebar-text-settings
+{
+   width: 30px;
+   height: 14px;
+   font-family: ProximaNova;
+   font-size: 12px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 0.2;
+   letter-spacing: normal;
+   text-align: left;
+   color: #606060;
+   margin: 15px 37px 0px 32px;
+}
+
+/* On clicking the icons inside the sidebar  */
+.sidebar-icons-chatSelcted
+{
+   width: 67px;
+   height: 70px;
+   object-fit: contain;
+   margin: 31px 15px 0px 15px;
+   /* opacity: 1;
+     transition: .3s ease-in-out; */
+
+
+}
+
+.sidebar-icons-teamSelected
+{
+   width: 67px;
+   height: 70px;
+   object-fit: contain;
+   margin: 31px 15px 0px 15px;
+
+}
+.sidebar-icons-archivesSelected
+{
+   width: 67px;
+   height: 70px;
+   object-fit: contain;
+   margin: 31px 15px 0px 15px;
+
+}
+.sidebar-icons-agentsSelected
+{
+   width: 67px;
+   height: 70px;
+   object-fit: contain;
+   margin: 31px 15px 0px 15px;
+
+}
+.btn-cstm {
+    background-color: transparent !important;
+    border-color: #fff !important;
+    margin-top: 19px;
+    white-space: nowrap !important;
+    padding-bottom: 3px;
+    margin-left: 8px;
+    color: #009ce8 !important;
+    font-weight: 600;
+    border: 1px solid #009ce8 !important;
+    border-radius: 3px;
+}
+
+.noDisplay
+{
+  display: none !important;
+}
+
+.selected
+{
+   margin: 15px 0px 10px 28px !important;
+}
+
+
+.img-icon
+{
+   /* width: 50; */
+   position: relative;
+   height: 48px;
+   top: 0;
+   left: -8px;
+   position: relative;
+}
+.img-select
+{
+   height: 60px;
+}
+
+
+.subbar {
+   width:23%;
+   height: auto;
+   /* box-shadow: 1px 2px 6px 0 rgba(0, 0, 0, 0.08); */
+   box-shadow: -2px 2px 6px 0 rgba(0, 0, 0, 0.08);
+   background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+   bottom: 0;
+   top: 14%;
+   left: 100px;
+}
+
+
+
+.sideTxt
+{
+   font-family: ProximaNova;
+   font-size: 17px;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.38;
+   letter-spacing: normal;
+   text-align: left;
+   /* color: #1d1d1d; */
+   padding: 22px 0 0 25px;
+}
+
+.sideBtn
+{
+   padding: 15px 0px 0px 40px;
+   cursor: pointer;
+}
+
+.addBtn
+{
+   float: right;
+    margin-right: 10px !important;
+   font-size: 8px !important;
+   /* font-weight: bolder !important; */
+   color: #009ce8 !important;
+   border-radius: 5px;
+   border: solid 1px #009ce8 !important;
+}
+
+.sideInput
+{
+   padding: 0px 0px 0px 14px !important;
+}
+
+
+.side-li
+{
+   border-radius: 6px;
+   transition: 0.5s ease-in-out;
+   color: #1d1d1d;
+   
+}
+.side-li:hover
+{
+   border-radius: 6px;
+   background-color: #daf4ff !important ;
+   
+}
+.blink
+{
+   background-color: rgb(198, 237, 253)!important;
+   border-radius: 6px !important;
+}
+.white
+{
+   /* color:white !important; */
+}
+
+.side-liTxt
+{
+   text-transform: capitalize;
+   font-family: ProximaNovaThin;
+   font-size: 13px;
+   font-weight: 400;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.5;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+   padding-left: 10px;
+   
+}
+
+.side-badge
+{
+   width: 30px;
+   height: 30px;
+   background-color: #e6f3f4;
+   font-size: 12px !important;
+   border-radius: 50%;
+   font-family: ProximaNova;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.4;
+   letter-spacing: normal;
+   text-align: left;
+   color: #009ce8;
+   padding: 8px;
+}
+
+.ctHead
+{
+   font-family: ProximaNova;
+  font-size: 18px;
+  
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: right;
+  color: #1d1d1d;
+  margin: 10px 0 0 0;
+}
+
+
+.closeBtn
+{
+   font-family: ProximaNova;
+  font-size: 15px;
+  
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: right;
+  color: #009ce8;
+  margin: 10px 0 0 0;
+  
+}
+
+
+#demo-simple-select-outlined
+{
+   padding:8px 10px !important;
+}
+
+.ctTxt
+{
+   font-family: ProximaNova;
+   font-size: 15px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.33;
+   letter-spacing: normal;
+   text-align: left;
+   color: #606060;
+   padding: 20px 0 0 15px !important;
+}
+.ctTxt1
+{
+   font-family: ProximaNova;
+   font-size: 18px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.33;
+   letter-spacing: normal;
+   text-align: left;
+   color: #606060;
+   padding: 20px 0 0 15px !important;
+}
+
+.ctBtn
+{
+   border-radius: 8px;
+   background-color: #009ce8;
+   font-family: ProximaNova;
+   font-size: 15px;
+   border: 0;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.21;
+   letter-spacing: normal;
+   color: #ffffff;
+   padding: 18px 100px 15px 100px;
+}
+
+.cstm-btn {
+    white-space: nowrap;
+    margin-top: 21px;
+}
+
+.ctBtnMain
+{
+   text-align: center;
+}
+
+*
+{
+   outline: none !important;
+}
+
+.MuiSelect-select.MuiSelect-select, .ctSelect
+{
+   font-size: 12px !important;
+   padding-top: 5px;
+   padding-bottom: 9px;
+}
+
+.chatRow
+{
+   position: relative;
+   padding-top: 7%;
+   
+}
+
+
+.right
+{
+   float: right !important;
+}
+
+.noRightPadding
+{
+   padding-right: 0 !important;
+    background: #ffffff;
+}
+
+.crmHead
+{
+   font-family: ProximaNova;
+   font-size: 16px;
+   
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.38;
+   letter-spacing: normal;
+   text-align: left;
+   position: relative;
+   color: #1d1d1d;
+   margin-top: 71px;
+   margin-left: 2px;
+}
+.crmP
+{
+   font-family: Proximanova;
+  font-size: 9px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: left;
+
+}
+
+.sidesubP
+{
+   font-family: ProximaNova;
+   font-size: 9px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.42;
+   letter-spacing: normal;
+   text-align: center;
+ 
+}
+
+.TopSpace
+{
+   margin-top: 10px;
+}
+.currentTxt
+{
+   font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.95;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+  padding: 10px 0 0 20px;
+  white-space: nowrap;
+}
+/* .crmTxt
+{
+   font-family: ProximaNova;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.95;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+} */
+
+
+.currentBadge
+{
+   /*opacity: 0.4;
+   width: 35px;
+   height: 20px;
+   background-color: #009ce8;
+   font-size: 14px !important;
+   border-radius: 10px;
+   font-family: ProximaNova;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.4;
+   letter-spacing: normal;
+   text-align: left;
+   color: #e6f3f4;
+   padding: 2px 0 0 9px;*/
+
+
+    opacity: 0.4;
+    width: 25px;
+    height: 25px;
+    background-color: #009ce8;
+    font-size: 14px !important;
+    border-radius: 50%;
+    font-family: ProximaNova;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e6f3f4;
+    padding: 4px 0px 8px 8px;
+
+
+}
+
+.currentImg
+{
+   padding: 0px 0 0 2px;
+}
+
+.crmInnerHead
+{
+   font-family: ProximaNova;
+   font-size: 12px;
+   font-weight: 580;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.18;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+
+}
+
+
+.crmInnerTxt
+{
+   font-family: ProximaNovaThin;
+    font-size: 12px;
+    float: right;
+    margin-right: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: right;
+    color: #1d1d1d;
+}
+
+
+.chatUser-size
+{
+   opacity: 0;
+   width: 330px;
+height: auto;
+/* transition: 0.7s; */
+position: absolute;
+    right: 50px;
+    z-index: 999;
+    bottom: 5%;
+
+}
+.openChat
+{
+  opacity: 1;
+  z-index: 99999;
+}
+.chatUser-header
+{
+   border-radius: 7px 7px 0 0;
+    box-shadow: 0 2px 4px 0 rgba(105, 105, 105, 0.2);
+   background-color: #009ce8;
+
+}
+svg{
+   cursor: pointer;
+}
+.chatUser-chat
+{
+   background-color: #f5f5f5;
+   height: 400px;
+
+}
+.chatUser-toprow 
+{
+   padding-top: 18px;
+   /* margin-top: 10px; */
+   /* background-color: #f5f5f5 !important; */
+}
+.chatUser-row 
+{
+
+       background-color: #f5f5f5;
+       height: 80px;
+       /* margin-top: 15px; */
+       /* position: absolute;
+       bottom: 0; */
+}
+.sd-BP
+{
+background-color: #fff !important;
+}
+.privacy-chat
+{
+     background-color: #f5f5f5;
+     height: 400px;
+}
+.privacy-div
+{
+    
+     height: 320px;
+}
+.chatUser-sd
+{
+   background-color: #f5f5f5;
+   height: 428px;
+}
+
+.chatUser-chatting
+{
+   box-shadow: 0 2px 4px 0 rgba(105, 105, 105, 0.2);
+   background-color: #f5f5f5;
+   height: 400px;
+}
+
+.chatUser-head{
+   padding: 20px 0 0 30px;
+    font-family: ProximaNova;
+    font-size: 15px;
+    
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.chatUser-headT{
+   padding: 0px 0 0 30px;
+    font-family: ProximaNova;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.chatUser-down
+{
+   width: 12px;
+   margin: 15px 0 0 0;
+
+}
+
+.chatUser-down svg
+{
+   margin: 15px 0 0 10px;
+   width: 17px;
+}
+
+.chatUser-icon
+{
+   position: fixed;
+   right: 50px;
+   bottom: 30px;
+   cursor: pointer;
+   background-color: #009ce8;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   padding: 20px;
+   transition: 1s;
+   z-index: 9999;
+}
+.hideIcon
+{
+display: none;
+}
+
+.contact-head
+{
+   font-family: ProximaNova;
+
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.21;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+   padding: 20px 0 10px 15px;
+   font-size: 15px;
+   border-bottom: 1px solid lightgray;
+
+}
+.contact-txt
+{
+   font-family: ProximaNovaThin;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.21;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+   padding: 10px 0 10px 0px;
+   font-size: 15px;
+   border-bottom: 1px solid lightgray;
+   width: 77%;
+   position: absolute;
+   cursor: pointer;
+   
+}
+.contact-txt-last
+{
+   font-family: ProximaNovaThin;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.21;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+   padding: 10px 0 0px 0px;
+   font-size: 15px;
+
+   width: 77%;
+   position: absolute;
+   cursor: pointer;
+   
+}
+
+
+.chatUser-chatIcon
+{
+   width: 15px;
+   height: 15px;
+   margin: 10px 15px 5px 15px;
+}
+
+.chatUser-sdIcon
+{
+   margin: 10px 5px 5px 5px;
+   width: 15px;
+}
+
+
+
+
+.chatUser-select
+{
+   border-radius: 7px;
+   box-shadow: 0 2px 4px 0 rgba(105, 105, 105, 0.2);
+   background-color: #ffffff;
+   margin: -5px 0 0 15px;
+   height: 200px;
+   /* height: auto; */
+}
+
+
+.chatUser-select-faq
+{
+   border-radius: 7px;
+   box-shadow: 0 2px 4px 0 rgba(105, 105, 105, 0.2);
+   background-color: #ffffff;
+   margin: -5px 0 0 15px;
+   height: 170px;
+}
+
+.chatUser-click
+{
+   cursor: pointer;
+   float: right;
+   position: relative;
+   right: 5px;
+}
+.chatUser-click > img
+{
+  width:8px
+}
+
+.sd-li
+{
+   display: inline-flex;
+   border: 1px solid lightgray;
+   font-size: 10px;
+   border-radius: 10px;
+   width: 138px;
+   height: 52px;
+   margin: 5px 5px 5px 0;
+   cursor: pointer;
+}
+
+.sd-txt
+{  font-family: ProximaNova;
+   font-size: 14px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.17;
+   letter-spacing: normal;
+   text-align: left;
+   color: #606060;
+   padding: 18px 0px 0px 37px;
+
+   /* padding: 14px 0 0 0; */
+}
+
+.sd-Back {
+   width: 75px;
+   position: absolute;
+   left: 5px;
+}
+
+.sd-Next
+{
+   width: 75px;
+   position: absolute;
+   left: 135px;
+}
+
+.bgImage {
+   /* height: 760px !important; */
+   background-image: url('/assets/img/e-shift-banner.jpg');
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.navbar {
+   padding: 1.5rem 3rem !important;
+   float: right;
+}
+a.nav-link {
+    color: #009ce8;
+    font-weight: 700;
+}
+
+.sd-back
+{
+   width: 65px;
+   position: absolute;
+   top:22px;
+   /* bottom: 5px; */
+   left: 23px;
+   
+}
+.sd-next
+{
+   width: 65px;
+   position: absolute;
+   top: 22px;
+   /* bottom: 5px; */
+   left: 54px;
+}
+.sid-back {
+   padding-right: 9px;
+}
+
+.sd-confirm
+{
+   width: 250px;
+   text-align: center;
+   margin: 33px 0 0 18px;
+}
+
+.chatUser-chatting .chat-history
+{
+   width: 100%;
+    overflow: auto;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px 0 rgba(105, 105, 105, 0.2);
+    background-color: #ffffff;
+    margin: -8px 10px 10px 10px;
+    height: 340px;
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
+
+.chatUser-chatting .chat-message
+{
+   border-radius: 0 0 7px 7px;
+    box-shadow: 0 2px 4px 0 rgba(105, 105, 105, 0.2);
+   width: 100%;
+    background: white;
+}
+
+.chat-span{
+   display:inline-flex;
+   width: 100%;
+}
+
+.face-rightIcon
+{
+   position: relative;
+   right: -10%;
+}
+
+.face-leftIcon
+{
+   position: relative;
+   left: -10%;
+}
+
+.agent-chat .face-rightIcon
+{
+   position: relative;
+   right: -5%;
+}
+
+.agent-chat .face-leftIcon
+{
+   position: relative;
+   left: -5%;
+}
+.chatUser-chatting-btn {
+   border-radius: 5px;
+   background-color: #009ce8 !important;
+   padding: 5px 40px 5px 40px;
+   margin: 4px 8px 4px 10px;
+   color: #FFFFFF !important;
+         border: 2px solid #009ce8;
+}
+
+
+
+/* .chatUser-chatting-img
+{
+   width: 12px;
+   margin: 16px -5px 0 11px;
+} */
+/* new change */
+.chatUser-chatting-img
+{
+   width: 12px;
+   margin: 16px 10px 0 11px;
+}
+
+.sd
+{height: auto !important;
+   
+}
+
+.sc-btn
+{
+   border-radius: 5px;
+   border: 0;
+   background-color: #009ce8;
+   color: white;
+   padding: 5px 20px 5px 20px;
+   margin: 4px;
+}
+
+.sc-btn-select
+{
+   color:#47afaf;
+   border: solid 1px #009ce8;
+   background-color: #ffffff;
+}
+.sc-main
+{
+   text-align: center;
+   margin: 22px;
+}
+
+.select-sd
+{
+   border:1px solid #009ce8;
+
+}
+.bold
+{
+   font-weight: bolder;
+}
+
+.chatAgent-right
+{
+   /* float:right; */
+}
+.addTag .chatUser-chatting-img
+{
+   width: 6%;
+    margin: 10px 10px 0 0;
+    position: relative;
+    right: -175px;
+}
+
+.tags
+{
+   margin: 10px 0 0 0;
+}
+
+.agent-emoji {
+   position: absolute;
+   z-index: 9;
+   right: 10px;
+   bottom: 40px;
+   z-index: 9999;
+}
+.emoji-mart-bar
+{
+   display: none !important;
+}
+
+#tag-value
+{
+   border: 0;
+   margin-right: 10px;
+   border-bottom: 1px solid #009ce8;
+   background: transparent;
+   max-width: 100%;
+}
+
+
+.pdf-logo
+{
+   width:100px;
+   padding:10px;
+}
+
+.pdf-logo-header
+{
+   text-align: center;
+}
+
+#myprofile .MuiBackdrop-root
+
+{
+   top: 100px  !important;
+
+   left: 100px !important;
+   
+   
+
+}
+
+
+.pdf-btn
+{
+   background-color: #009ce8;
+   color: white;
+   border:0;
+   padding:10px 20px 10px 20px;
+   margin:20px 0 0 37%;
+   border-radius: 5px;
+}
+
+.profile-logo
+{
+   box-shadow: 0px 0px 5px 2px lightgrey;
+   border-radius: 100%;
+   width: 35px;
+   margin: 15px 0 15px 15px;
+
+}
+
+.profile-head
+{
+   font-family: ProximaNova;
+   
+   font-size: 20px;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.23;
+   letter-spacing: normal;
+   text-align: left;
+   margin: 22px 0 0 0;
+}
+
+.head-main
+{
+border-bottom: solid 0.5px rgba(112, 112, 112, 0.14);
+margin-left: 0 !important;
+/* margin-top: 15px; */
+padding-bottom: 20px;
+}
+.header-main
+{
+   padding-bottom: 0 !important;
+   margin-top: 15px;
+}
+
+.profile-sec1
+{
+ 
+   margin: 15px 0px 0 15px !important;
+}
+
+.profile-sec2
+{
+   /* background: #47afaf30; */
+   margin: 0 20px 0 20px !important;
+   padding: 15px;
+}
+
+.profile-sec3
+{
+   margin: 15px 20px 0 0px !important;
+}
+.profile-sec4
+{
+   margin: 10px 0px 0 30px !important;
+}
+.profile-sec5
+{
+   margin: 10px 0px 0 30px !important;
+}
+.profile-sec6
+{
+   border-top: solid 0.5px rgba(112, 112, 112, 0.14);
+   margin: 0px 0px 0 0px !important;
+   padding: 30px;
+}
+.profile-gTxt
+{
+   font-family: ProximaNova;
+   font-size: 18px;
+   
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.33;
+   letter-spacing: normal;
+   text-align: left;
+   color: #009ce8;
+}
+
+.profile-gTxt
+{
+   padding: 15px 0 0 0px;
+   font-family: ProximaNova;
+   font-size: 15px;
+   
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.33;
+   letter-spacing: normal;
+   text-align: left;
+   color: #009ce8;
+}
+
+.profile-subTxt
+{
+   font-family: ProximaNova;
+   font-size: 10px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.17;
+   letter-spacing: normal;
+   text-align: left;
+   color: #8898aa;
+}
+
+.profile-lTxt
+{
+   font-family: ProximaNova;
+   font-size: 16px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.21;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+   padding: 10px 0 0px 5px;
+}
+
+
+.profile-lSub
+{
+   font-family: ProximaNova;
+   font-size: 10px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.67;
+   letter-spacing: normal;
+   text-align: left;
+   color: #606060;
+}
+
+.profile-lSub-txt
+{
+   font-family: ProximaNova;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+}
+
+.profile-btn
+{
+   margin-left: 36%;
+   background-color: white;
+   color:#47afaf;
+   padding:5px 30px 5px 30px;
+   border-radius: 4px;
+   border: solid 1px #009ce8;
+}
+
+.profile-sec1-head
+{
+   font-family: ProximaNova;
+   font-size: 25px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.19;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+}
+
+.away
+{
+   font-family: ProximaNova;
+   font-size: 11px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.18;
+   letter-spacing: normal;
+   text-align: left;
+   color: #606060;
+   margin-left: 5px;
+}
+
+.profile-sec1-img
+{
+   width: 75px;
+}
+
+.profile-tag
+{
+   border-radius: 50px;
+   border: 1px solid lightgray;
+   padding: 5px 10px 5px 10px;
+   font-family: ProximaNova;
+   font-size: 10px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.21;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+   margin: 10px 0px 10px 10px;
+}
+
+/* Customer Login */
+
+.Login-password
+{
+   margin: 45px 5px 5px 5px; 
+}
+
+
+.Login-email
+{
+ margin: 45px 5px 5px 5px;   
+}
+
+.agentLogin-forgotPassword
+{
+   margin-top: 25px;
+}
+
+.agentLogin-submitButton
+{
+   background-color:	#009ce8; /* Teal */
+   border: none;
+   border-radius: 5px;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin-top: 25px;
+   margin-left: 8px;
+   cursor: pointer;
+   
+}
+
+
+
+
+.insideAgentLogin
+{
+   width: 420px !important; 
+}
+
+.Login-email .MuiFormControl-root.MuiTextField-root {
+   width: 100% !important;
+   background-color: white;
+}
+
+.Login-password .MuiFormControl-root.MuiTextField-root {
+   width: 100% !important;
+}
+
+.Login-email .MuiFormLabel-root.Mui-focused
+{
+   color: #009ce8 !important;
+}
+
+.Login-email .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline
+{
+   border-color: #009ce8 !important;
+}
+
+
+.Login-password .MuiFormLabel-root.Mui-focused
+{
+   color: #009ce8 !important;
+}
+
+.Login-password .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline
+{
+   border-color: #009ce8 !important;
+}
+
+
+
+.login-forgotPassword
+{
+   /* margin-left: 155px; */
+   margin-top: 15px;
+   float: right;
+   font-family: ProximaNova;
+   font-size: 10px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.21;
+   letter-spacing: normal;
+   text-align: right;
+}
+
+.login-keepLogin
+{
+   float: left;
+   margin-left: 0px;
+
+   font-family: ProximaNova;
+   font-size: 10px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.21;
+   letter-spacing: normal;
+   text-align: left;
+
+}
+
+.agent-Login
+{
+   background-color:#0178d4;
+   height: 400px;
+   width: 100%;
+}
+
+.agent-LoginBox
+{
+   border-radius: 25px;
+   padding: 20px; 
+   width: 500px;
+   height: 450px; 
+   box-shadow:
+   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+   0 12.5px 10px rgba(0, 0, 0, 0.06),
+   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+   0 100px 80px rgba(0, 0, 0, 0.12)
+ ;
+   background: white;
+   position: relative;
+   top: 40%;
+   left: 34%;
+ 
+}
+
+.agent-LoginHeading
+{
+   margin-top: 5px;
+   text-align:center ;
+
+   font-family: ProximaNova;
+ 
+   
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.21;
+   letter-spacing: normal;
+ 
+}
+
+.customer-loginBox
+{
+
+ height: 719px;
+ width: 100%;
+ padding: 20px; 
+ box-shadow:
+ 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+ 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+ 0 12.5px 10px rgba(0, 0, 0, 0.06),
+ 0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+ 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+ 0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.customer-loginHeading
+{
+   margin-top: 5px;
+}
+
+.customer-login-close
+{
+   float: right;
+   margin-top: 25px;
+   margin-left: 188px;
+}
+
+.customer-login-heading
+{
+   font-family: ProximaNova;
+   font-size: 16px;
+   border: 0;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.21;
+   letter-spacing: normal;
+   float: left;
+   margin-top: 25px;
+   margin-left: 20px;
+}
+
+.customer-login-component
+{
+   margin-top: 5px;
+}
+
+.customer-login-top
+{
+   margin-bottom: 10px;
+}
+
+.customer-login-logo
+{
+   margin-left: 203px;
+   margin-top: 65px;
+}
+
+.customer-login-companyName
+{
+  text-align: center;
+   margin-top: 10px;
+   font-weight: lighter;
+}
+
+
+.agent-Login-logo
+{
+   /* margin-left: 732px;
+   position: absolute;
+   margin-top: 50px; */
+   text-align: center;
+}
+
+.agent-Login-name
+{
+   color: white;
+   font-family: ProximaNova;
+   font-size: 40px;
+   right: 0;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.38;
+   letter-spacing: normal;
+   position: absolute !important;
+   top: 12%;
+   
+}
+
+.who
+{
+   font-family: ProximaNova;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    color: #606060;
+    text-transform: capitalize;
+}
+
+.online-s
+{
+   /* border: solid 1px rgba(66, 155, 97, 0.35); */
+   border: solid 1px rgba(112, 112, 112, 0.13);
+  background-color: #ffffff;
+   padding: 5px 12px 2px 12px;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   font-family: ProximaNova;
+   font-size: 15px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.55;
+   letter-spacing: normal;
+   text-align: left;
+   color: #606060;
+   /* color: #429b61; */
+}
+
+.profile-status
+{
+   font-family: ProximaNova;
+   font-size: 20px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.65;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+   padding: 10px 0 0 20px;
+}
+
+.edit-profile
+{
+   cursor: pointer;
+   font-family: ProximaNova;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #009ce8;
+  padding-top: 5px;
+}
+
+
+.ct-txt .MuiTypography-body1
+{
+   font-family: ProximaNova;
+   font-size: 14px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.2;
+   letter-spacing: normal;
+   text-align: left;
+   padding-top: 3px;
+   color: #1d1d1d;
+}
+
+.attach
+{
+   font-family: Proximanova;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #009ce8;
+    float: right;
+    position: relative;
+    bottom: -15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.ct-img
+{
+   width: 10px;
+   margin: 0px 3px 0 0;
+}
+
+.subbar .side-liTxt
+{
+   padding: 25px 20px 20px 20px;
+   font-weight: 600;
+   font-size: 14px;
+   
+}
+
+
+.subbar .time-txt
+{
+   font-family: ProximaNova;
+   font-size: 10px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.2;
+   letter-spacing: normal;
+   text-align: left;
+   /* color: #1d1d1d; */
+   position: absolute;
+    right: 15px;
+}
+
+.center
+{
+   text-align: center !important;
+}
+
+.statusIcon
+{
+   position: relative;
+   bottom: 0;
+   top: 20px;
+   right: 20px;
+   cursor: pointer;
+}
+
+
+.Online
+{
+   border: solid 1px rgba(66, 155, 97, 1);
+   color:rgba(66, 155, 97, 1);
+   background-color: #ffffff;
+}
+
+.Break
+{
+   border: solid 1px orange;
+   color:orange;
+   background-color: #ffffff;
+}
+
+.Away
+{
+   border: solid 1px red;
+   color:red;
+   background-color: #ffffff;
+}
+
+.ticketDetails-top {
+    background: #ffffff;
+    /* padding: 20px; */
+}
+.text {
+    background: #f2fafd;
+    padding: 18px;
+    text-align: center;
+}
+.fbold {
+   font-size: 12px;
+   font-weight: 500;
+   white-space: nowrap;
+   font-family: ProximaNova;
+   color: #1d1d1d;
+}
+h6.refund {
+   margin-top: 17px;
+   font-size: 17px;
+   font-family: ProximaNova;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 1; /* number of lines to show */
+   text-transform: capitalize;
+}
+.ticketinfo-middle {
+   border: 1px solid rgba(112, 112, 112, 0.15);
+    /* background: #f2fafd; */
+    padding: 1%;
+    margin: 0px;
+    margin-right: 36px !important;
+    margin-left: 21px !important;
+    font-family: ProximaNova;
+}
+.ticketDetails .MuiChip-root {
+   background: rgba(223, 240, 240, 0.67) !important;
+   color: #009ce8 !important;
+}
+
+.ticketDetails .refund
+{
+   font-family: ProximaNova;
+  font-size: 15px;
+  
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; /* number of lines to show */
+}
+
+.bywhom
+{
+   
+   font-family: ProximaNovaThin;
+   font-size: 15px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.21;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+  
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   text-transform: capitalize;
+ 
+ 
+}
+
+
+.ticketDetails .chat-header
+{
+   width:100%;
+}
+
+.loginHome
+{
+    float: right;
+    background:white;
+    width:30%;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.selectedColor
+{
+   color:#009ce8 !important
+}
+
+.sideSubMenuWidth
+{
+   max-width: 28% !important;
+}
+
+.chatWidth
+{
+   max-width: 47% !important;
+}
+
+.noPaddingLR
+{
+   padding-left: 0 !important;
+   padding-right: 0 !important;
+}
+
+
+.noPaddingR
+{
+  /* padding-right: 0 !important; */
+}
+
+
+.crmInfo .MuiExpansionPanelDetails-root
+{
+   padding:0 0 10px 16px !important;
+}
+
+.crmInfo .MuiExpansionPanel-root 
+
+{
+   margin-bottom: 20px !important;
+    border-radius: 6px;
+    border: solid 1px rgba(112, 112, 112, 0.13);
+    box-shadow: 0 0 0 0 !important;
+}
+
+.crmInnerTime
+{
+
+   font-family: ProximaNovaThin;
+   font-size: 12px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.2;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+}
+
+.dropBtnLRW
+{
+   /* max-width: 18% !important; */
+    /* margin-right: 0 !important; */
+    /* padding-right: 0 !important; */
+   left: -20px;
+   white-space: nowrap;
+}
+.dropBtnAgent
+{
+   /* max-width: 18% !important;
+    margin-right: auto !important;
+    padding-right: 0 !important; */
+    right: 66px;
+}
+
+.dropBtnResolve
+{
+   /* max-width: 20% !important; */
+}
+.priority-box .MuiSvgIcon-root .MuiSelect-icon
+{
+   right : 7px;
+}
+
+#demo-customized-resolve
+{
+   border-radius: 5px;
+   background-color: #009ce8;
+   color: #ffffff !important;
+   text-align: left;
+   padding-top: 10px;
+   /* padding-top: 7px; */
+   padding-bottom: 8px;
+   left: 15px;
+}
+#demo-customized-resolve1
+{
+   border-radius: 20px;
+   background-color: #009ce8;
+   color: #ffffff !important;
+   text-align: left;
+   padding-top: 3px;
+   padding-bottom: 5px;
+   left: -4px;
+   border:none !important;
+   font-family: ProximaNova;
+}
+#demo-customized-resolve1-low
+{
+   border-radius: 20px;
+   background-color: #e6f3f4;
+   color: #009ce8 !important;
+   text-align: left;
+   padding-top: 3px;
+   padding-bottom: 5px;
+   left: -4px;
+   border:none !important;
+   font-family: ProximaNova;
+}
+
+#demo-customized-resolve1-medium
+{
+   border-radius: 20px;
+   background-color: #FAF5D7;
+   color: #FFA236 !important;
+   text-align: left;
+   padding-top: 3px;
+   padding-bottom: 5px;
+   left: -4px;
+   border:none !important;
+   font-family: ProximaNova;
+}
+
+#demo-customized-resolve1-high
+{
+   border-radius: 20px;
+   background-color: #FFDFD6;
+   color: #F83D3D !important;
+   text-align: left;
+   padding-top: 3px;
+   padding-bottom: 5px;
+   left: -4px;
+   border:none !important;
+   font-family: ProximaNova;
+}
+
+
+.resolve-header svg
+{
+   color:white !important;
+   margin-right: -10px !important;
+}
+
+
+.img-resolve
+{
+   padding: 0 10px 0 0;
+}
+
+.addTag .chip
+{
+   margin: 0 15px 0 15px !important;
+}
+
+.arc-head
+{
+   font-family: ProximaNova;
+   font-size: 20px;
+   margin-bottom: 0 !important;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.38;
+   letter-spacing: normal;
+   text-align: left;
+   color: #333333;
+}
+
+
+.arc-subhead
+{
+   font-family: ProximaNova;
+   font-size: 10px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.27;
+   letter-spacing: normal;
+   text-align: left;
+   color: #333333;
+}
+
+
+.archivePage .chat-header {
+   padding: 34px 0 0 20px !important;
+   /* height: 80px; */
+}
+
+.Mright{
+   float: right;
+   margin-top: 12px;
+   margin-right: 10px;
+}
+
+.arc-img
+{
+   margin-left: 120px;
+}
+.chtwdth {
+   width: 98%;
+   border-radius: 5px;
+   background-color: #fff;
+   /* margin-bottom: -337%; */
+   margin-top: 34%;
+}
+
+/* Styling of ticket management table */
+.ticMgmt .MuiTableCell-root
+{
+   padding:5px !important;
+} 
+
+
+.ticMgmt
+{
+
+   font-family: ProximaNova;
+   text-transform: capitalize;
+   width: 130px;
+   height: auto;
+   font-size: 14px;
+   font-weight: 600;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 0.95;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+   background-color: #ffffff;
+   border-radius: 75% ;
+   border-bottom: 12px solid #f2f4f5 !important;
+
+
+}
+
+.ticMgmt .makeStyles-tableRow-324
+{
+   border-bottom: 12px solid #f2f4f5 !important;
+}
+
+.ticMgmt-Paper .MuiPaper-root.MuiPaper-elevation1
+{
+   box-shadow: none !important;
+  
+   
+}
+.tckMgmt-Paper .MuiPaper-root
+{
+   background-color: #f2f4f5;
+}
+
+.table-responsive {
+    padding: 0px;
+    margin-top: -43px;
+}
+
+.notification-success {
+   background-color: #0178d4 !important;
+}
+
+.notification-message .message
+{
+   font-family: ProximaNovaThin !important;
+}
+
+.ticketSubject
+{
+   width : 60px;
+   overflow:hidden;
+   display:inline-block;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+
+.Status-dot {
+   height: 5px;
+   width: 5px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+ }
+
+ .ticketDetails-box
+ {
+    width: 144px;
+    height: 90px;
+    background-color: rgba(235, 235, 235, 0.35);
+    border-radius: 9px;
+    margin-top: 35px;
+ }
+
+ .ticketDetails-tabs .PrivateTabIndicator-root-442 .PrivateTabIndicator-colorPrimary-443 .MuiTabs-indicator
+ {
+    background-color: #009ce8 !important;
+    font-family: ProximaNova;
+ }
+
+ .ticketDetails-tabs .MuiTab-wrapper
+ {
+    font-size: 11px;
+    font-family: ProximaNova;
+ }
+
+
+ 
+@keyframes k-loading-animation  {
+   0% {
+       transform: rotate(0deg);
+   }
+   100% {
+       transform: rotate(360deg);
+   }
+}
+
+.k-i-loading.k-example-loading {
+   font-size: 64px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: rgb(63,81,181);
+}
+
+.k-i-loading.k-example-loading::before,
+.k-i-loading.k-example-loading::after {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   display: inline-block;
+   content: "";
+   box-sizing: inherit;
+   border-radius: 50%;
+   border-width: .05em;
+   border-style: solid;
+   border-color: currentColor;
+   border-top-color: transparent;
+   border-bottom-color: transparent;
+   background-color: transparent;
+}
+.k-icon.k-i-loading.k-example-loading::before,
+.k-icon.k-i-loading::after {
+   content: "";
+}
+
+.k-i-loading.k-example-loading::before {
+   margin-top: -0.5em;
+   margin-left: -0.5em;
+   width: 1em;
+   height: 1em;
+   animation: k-loading-animation .7s linear infinite;
+}
+
+.k-i-loading.k-example-loading::after {
+   margin-top: -0.25em;
+   margin-left: -0.25em;
+   width: .5em;
+   height: .5em;
+   animation: k-loading-animation reverse 1.4s linear infinite;
+}
+
+.example-wrapper { 
+   min-height: 280px; 
+   align-content: flex-start; 
+}
+.example-wrapper p, .example-col p {
+   margin: 20px 0 10px; 
+}
+.example-wrapper p:first-child, .example-col p:first-child { 
+   margin-top: 0; 
+}
+.example-col { 
+   display: inline-block; 
+   vertical-align: top; 
+   padding-right: 20px; 
+   padding-bottom: 20px;
+}
+.example-config {
+   margin: 0 0 20px; 
+   padding: 20px; 
+   background-color: rgba(0,0,0,.03);
+   border: 1px solid rgba(0,0,0,.08); 
+}
+.event-log { 
+   margin: 0; 
+   padding: 0; 
+   max-height: 100px; 
+   overflow-y: auto; 
+   list-style-type: none; 
+   border: 1px solid rgba(0,0,0,.08); 
+   background-color: white; 
+}
+.event-log li {
+   margin: 0; 
+   padding: .3em; 
+   line-height: 1.2em; 
+   border-bottom: 1px solid rgba(0,0,0,.08); 
+}
+.event-log li:last-child { 
+   margin-bottom: -1px;
+}
+
+.customerFeedback
+{
+   height:420px;
+   width: 380px;
+   
+
+   margin-left: 100px;
+   margin-top:100px;
+   box-shadow:
+   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+   0 12.5px 10px rgba(0, 0, 0, 0.06),
+   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+   0 100px 80px rgba(0, 0, 0, 0.12)
+ ;
+}
+
+.customerFeedback-header
+{
+   background-color: #009ce8;
+   padding: 15px;
+}
+
+.customerFeedback-body
+{
+   background-color:#f5f5f5;
+   padding: 20px;
+   
+   
+   
+}
+
+.customerFeedback-box
+{
+
+   border-radius: 25px;
+   background:white;
+   padding: 20px; 
+   width: 333px;
+   
+   margin-top: -28px;   
+   box-shadow:
+   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+   0 12.5px 10px rgba(0, 0, 0, 0.06),
+   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+   0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.Feedback-box
+{
+   border:1px solid #f8f8f8;
+   border-radius: 9px;
+   padding:10px;
+   margin-top: 2%;
+}
+.ticketdetails-top {
+    font-family: ProximaNova;
+    font-size: 17px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: left;
+    padding-top: 12px;
+    white-space: nowrap;
+}
+.MuiTypography-body1
+{
+   font-family: ProximaNovaThin !important;
+}
+
+
+.notFound
+{
+   background-color: rgb(242, 244, 245);
+   width: 90%;
+   margin: 100px 40px;
+   text-align: center;
+}
+
+.notFound img
+{
+   width: 600px;
+height: 400px;
+}
+
+
+
+
+
+ .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+   background-color: #009ce8 !important;
+}
+ .MuiSwitch-thumb
+{
+   color: white;
+}
+
+
+.MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+   opacity: 2.5 !important;
+}
+
+
+.tablepadding th {
+    padding-left: 15px;
+}
+
+
+.privacy-txt
+{
+   font-family: ProximaNovaThin;
+   font-size: 12px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.2;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+}
+.privacy-agreement
+{
+   font-family: ProximaNovaThin;
+   font-size: 15px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.2;
+   letter-spacing: normal;
+   text-align: center;
+   color: #1d1d1d;
+}
+.privacy-head
+{
+   margin-top: 6px;
+   font-family: ProximaNova;
+   font-size: 18px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.2;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+}
+
+.chats-div
+{
+   overflow: auto;
+   height: auto;
+max-height: 200px;
+}
+
+.editMode
+{left: 11%;
+   cursor: pointer;
+   font-family: ProximaNova;
+   font-size : 16px;
+   margin-top: 3%;
+
+}
+
+
+.editTicketDetails-dept
+{
+height:45%;
+width:50%;
+padding: 1%;
+border: 1px solid rgb(211, 211, 211);
+border-radius:24px;
+font-family: ProximaNovaThin;
+color: #606060;
+font-size:12px;
+background-color: #faf9f9;
+}
+
+
+
+
+.crmInfo-Box
+{
+   height: 100%;
+   width: 500px;
+   background-color: white;
+   overflow-x: hidden;
+   padding: 20px;
+   font-family: proximaNova;
+   
+}
+
+
+.crmInfo-background
+{
+   background-color: #bbb;
+   height: 800px;
+   width: 100%;
+   font-family: proximaNova;
+}
+
+.crmInfo-ServiceInfo
+{
+   float:'left';
+   margin-left: 5px;
+   font-weight: bold;
+   font-family: proximaNova;
+
+}
+
+.crmInfo-topIcons1
+{
+   float: 'right';
+   margin-left: 270px;
+}
+.crmInfo-Body
+{
+   margin-top: 10px;
+}
+
+.crmInfo-ServiceBox
+{
+   background-color: grey; /* Teal */
+   border: none;
+   border-radius: 5px;
+   height: auto;
+   text-align: left;
+   text-decoration: none;
+   display: inline-block;
+   padding: 2%;
+   margin-top: 2%;
+   width: 100%;
+}
+
+.crmInfo-Heading
+{
+   float: "left";
+   margin-left:5px;
+}
+
+.crmInfo-Icons
+{
+   float: "right";
+   margin-left: 270px;
+}
+
+.crmInfo-Assignment
+{
+   margin-left: 30px;
+}
+
+.crmInfo-Services
+{
+   /* border: 2px solid rgba(237, 237, 237, 0.51);; 
+  
+  width: 100%;
+  border-radius: 6px;
+  padding: 2%; */
+   
+}
+
+.crmInfo-ServiceBox
+{
+   width: 100%;
+  
+  border-radius: 6px;
+  background-color: rgba(237, 237, 237, 0.51);
+  font-family: ProximaNova;
+
+
+}
+
+.crmInfo-County
+{
+   font-family: ProximaNovaThin;
+   color: #606060;
+   font-Size: 13px;
+}
+
+
+.crmInfo-ServiceAddress
+{
+   
+   text-align: left;
+   
+}
+
+
+
+.crmInfo-AccountNumber
+{
+   
+font-size: 11px;
+font-family: ProximaNova;
+color: #1d1d1d;
+}
+
+.crmInfo-Address
+{
+
+   font-size: 13px;
+   font-family:ProximaNova;
+   color: #1d1d1d;
+   padding-top: 1%;
+}
+
+.crmInfo-DropDown
+{
+   float: "right";
+   margin-left: 100px;
+}
+
+.crmInfo-ContractInfo
+{
+ 
+  border: 1px solid rgba(237, 237, 237, 0.51);; 
+  height: 90%;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 5%;
+  padding: 3%;
+  text-align: left;  
+}
+
+.crmInfo-Contracttext2
+{
+   font-family: ProximaNovaThin;
+   color: #606060;
+   font-size: 12px;  
+}
+
+.crmInfo-Contracttext
+{
+   font-family: ProximaNova;
+   color: #1d1d1d;
+   font-size: 12px;
+}
+
+
+.crmInfo-Contract
+{
+   
+   
+   font-family: ProximaNova;
+   font-size: 17px;
+   color: #1d1d1d;
+}
+
+.crmInfo-commodityInfo
+{
+   
+   padding: 2%; 
+  border: 1px solid rgba(237, 237, 237, 0.51);; 
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 5%;
+ 
+}
+
+.crmInfo-Balance
+{
+   
+   padding: 2%; 
+  border: 2px solid rgba(237, 237, 237, 0.51);; 
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 5%;
+}
+
+.crmInfo-subHeadings
+{
+   margin-left: 16px;
+   float: left;
+   width: 160px;
+   font-size:12px;
+   margin-top: 10px;
+   font-weight: bold;
+   font-family: proximaNova;
+}
+
+.crmInfo-balanceAmount
+{
+   float: right;
+   margin-left: 200px;
+   align-content:right;
+   font-size:12px;
+   margin-top: 10px;
+   font-family: proximaNova;
+   
+}
+
+
+ .crmInfo-subHeadings1
+{
+   
+   font-size: 16px;
+   font-family: ProximaNova;
+   color: #1d1d1d;
+}
+
+.crmInfo-subHeadings2
+{
+   
+   
+   font-size: 16px;
+   font-family: ProximaNova;
+   color: #1d1d1d;
+   
+
+}  
+.crmInfo-balanceAmount1
+{
+   
+   font-size: 12px;
+   font-family: ProximaNova;
+   color: #1d1d1d;
+}
+
+.crmInfo-balanceAmount2
+{
+   
+   font-size: 12px;
+   font-family: ProximaNova;
+   color: #1d1d1d;
+}
+
+.crmInfo .Mui-checked
+{
+   color: #009ce8 !important;
+}
+
+
+
+ .MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+   background-color: #009ce8 !important;
+}
+ .MuiSwitch-thumb
+{
+   color: white;
+}
+
+
+.MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+   opacity: 2.5 !important;
+}
+
+
+.crmInfo-Charts
+{
+   margin-top: 20px;
+}
+
+.crmInfo-ContractInfoButton
+{
+   height:30%;
+   width:110%;
+   border: none;
+   border-radius:24px;  
+   background-color: #e7f4f4;
+   color: #009ce8;
+   font-family: ProximaNovaThin;
+   font-size: 12px;
+   
+}
+
+.crmInfo-Electricity
+{
+   height:30%;
+   width:27%;
+   padding: 1%;
+   border: none;
+   border-radius:24px;
+   font-family: ProximaNova;
+   font-size:12px;
+}
+
+.crmInfo-Water
+{
+   height:30%;
+   width:21%;
+   padding: 1%;
+   border: none;
+   border-radius:24px;
+   font-family: ProximaNova;
+   font-size:12px;
+   background-color: #faf9f9;
+}
+
+.crmInfo-Gas
+{
+   height:30%;
+   width:20%;
+   padding: 1%;
+   border: none;
+   border-radius:24px;
+   font-family: ProximaNova;
+   font-size:12px;
+   background-color: #faf9f9;
+}
+
+.crmInfo-Sewage
+{
+   height:30%;
+   width:23%;
+   padding: 1%;
+   border: none;
+   border-radius:24px;
+   font-family: ProximaNova;
+   font-size:12px;
+   background-color: #faf9f9;
+}
+
+.crmInfo-dot
+{
+
+height: 5px;
+width: 5px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+}
+.tablepadding th {
+    padding-left: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px;
+}
+
+
+.privacy-txt
+{
+   font-family: ProximaNovaThin;
+   font-size: 12px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.2;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+}
+.privacy-agreement
+{
+   margin-right: -2px;
+   font-family: ProximaNovaThin;
+   font-size: 15px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.2;
+   letter-spacing: normal;
+   text-align: center;
+   color: #1d1d1d;
+}
+.privacy-head
+{
+   font-family: ProximaNova;
+   font-size: 18px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.2;
+   letter-spacing: normal;
+   text-align: left;
+   color: #1d1d1d;
+}
+
+.chats-div
+{
+   overflow: auto;
+   height: auto;
+max-height: 200px;
+}
+
+.editMode
+{
+   cursor: pointer;
+   font-family: ProximaNova;
+   font-size : 16px;
+   margin-top: 3%;
+
+}
+
+
+.editTicketDetails-dept
+{
+height:70%;
+width:50%;
+padding: 1%;
+border: 1px solid #009ce8;
+border-radius:24px;
+font-family: ProximaNovaThin;
+color: #009ce8;
+font-size:12px;
+background-color: #faf9f9;
+}
+
+.chat-message-root {
+  background-color: white !important;
+    width: 44%;
+    border-radius:5px;
+    position:fixed;
+    bottom:3%;
+    right:24.8%;
+  
+  }
+
+  .rtfLink
+  {
+   background-color: rgba(222, 240, 237, 0.76);
+white-space: pre-wrap;
+word-break:break-all;
+  }
+  
+ .PrivateTabIndicator-colorPrimary-174
+  {
+background-color: #009CE8 !important;
+  }
+
+
+  
+  /* Scrollbar Styling */
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+::-webkit-scrollbar-track {
+   background-color: #ebebeb;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+   background: #6d6d6d; 
+}
+/* .sidecheck{
+   margin-top: -15%;
+   left: 74%;
+} */
+/* .sidecheck {
+   margin-top: 2%;
+   left: 3%;
+} */
+/* .down {
+   margin-left: 20%;
+}
+.chatUser-down svg{
+   width: 16px;
+   margin-left: 15%;
+} */
+.sdul {
+   margin-left: -14%;
+}
+.btnline.chatUser-row.row {
+   padding-top: 0%;
+}
+.row.Feedbackbox {
+   margin-top: 15px;
+  border: 1px solid lightgray;
+   border-radius: 10px;
+   margin-left: 0%;
+}
+.feedbk{
+   padding-left: 4%;
+}
+img.chatUser-chatting-img.downld {
+   width: 15px;
+   margin: 16px -4px 0 11px;
+}
+.sc-btn.yesbtn {
+   padding-top: 6px;
+   padding-bottom: 6px;
+}
+.btnrow.chatUser-row.chatUser-toprow.row {
+   padding-top: 0px;
+   padding-left: 2px;
+}
+.rowalign {
+   right: 8px;
+}
+img.arrow.chatUser-chatting-img {
+   width: 20px;
+   margin: 16px 14px 0 11px;
+}
+.feedbk.feedbkallign.row {
+   margin-top: -9px;
+}
+.row.feedbk.feedbkallign1 {
+   margin-top: -11px;
+   margin-bottom: 10px;
+}
+.align-chk {
+   margin-right: -10px;
+}
+.pp-main
+{
+   margin-right: 62px;
+}
+.pp-btn
+{
+   border-radius: 5px;
+   border: 0;
+   background-color: #009ce8;
+   color: white;
+   padding: 5px 20px 5px 20px;
+   margin: 4px;
+}
+
+.pp-btn-select
+{
+   color:#47afaf;
+   border: solid 1px #009ce8;
+   background-color: #ffffff;
+}
+.pp-btn.yesbtn {
+   padding-top: 6px;
+   padding-bottom: 6px;
+}
+.addTag .chatUser-chatting-img1 {
+   width: 5%;
+   margin: 10px 10px 0 0;
+   position: relative;
+   right: -184px;
+}
+.addTag .chatUser-chatting-img2 {
+   width: 10%;
+   margin: 10px 10px 10px 0;
+   position: relative;
+   right: -200px;
+}
+.col-md-8.col-sm-12.tt-main {
+   left: -14px;
+   margin-top: -50px;
+}
+.tt-btnalign {
+   left: 8%;
+}
+.tt-drop {
+   margin-left: -3px;
+}
+.tt-btn-cstm {
+   background-color: transparent !important;
+   border-color: #fff !important;
+   margin-top: 0px;
+   white-space: nowrap !important;
+   padding-bottom: 3px;
+   margin-left: 0px;
+   color: #009ce8 !important;
+   font-weight: 600;
+   border: 1px solid #009ce8 !important;
+   border-radius: 3px;
+}
+.tt-btn-cstm1 {
+   background-color: transparent !important;
+   border-color: #fff !important;
+   margin-top: 0px;
+   white-space: nowrap !important;
+   padding-bottom: 3px;
+   margin-left: 40px;
+   color: #009ce8 !important;
+   font-weight: 600;
+   border: 1px solid #009ce8 !important;
+   border-radius: 3px;
+}
+.col-md-2.tt-assign {
+   top: 6px;
+}
+.col-md-1.tt-status {
+   top: 6px;
+}
+.resolve-header1 svg
+{
+   color:white !important;
+   /* margin-right: -10px !important; */
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path d="M0 0H5V20H0z" style="fill:none"/>
+        </clipPath>
+        <filter id="prefix__Ellipse_369" width="51" height="51" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-color="#2c2828" flood-opacity=".11"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .prefix__cls-4{fill:none;stroke:#172b4d;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="prefix__Group_134" data-name="Group 134" transform="rotate(-90 23.804 15.214)">
+        <g transform="rotate(90 23.805 15.215)">
+            <circle id="prefix__Ellipse_369-2" cx="16.5" cy="16.5" r="16.5" data-name="Ellipse 369" transform="rotate(-90 24 15)" style="fill:#fff"/>
+        </g>
+        <g id="prefix__more-vertical" transform="translate(14.018 6.41)">
+            <circle id="prefix__Ellipse_348" cx="1" cy="1" r="1" class="prefix__cls-4" data-name="Ellipse 348" transform="translate(1 9)"/>
+            <circle id="prefix__Ellipse_349" cx="1" cy="1" r="1" class="prefix__cls-4" data-name="Ellipse 349" transform="translate(1 1)"/>
+            <circle id="prefix__Ellipse_350" cx="1" cy="1" r="1" class="prefix__cls-4" data-name="Ellipse 350" transform="translate(1 17)"/>
+        </g>
+    </g>
+</svg>

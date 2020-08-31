@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.438" height="22.611" viewBox="0 0 21.438 22.611">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path d="M0 0H21.438V22.611H0z" style="fill:none"/>
+        </clipPath>
+    </defs>
+    <g id="prefix__paperclip">
+        <path id="prefix__paperclip-2" d="M21.44 11.05l-9.19 9.19a6 6 0 1 1-8.49-8.49l9.19-9.19a4 4 0 1 1 5.66 5.66l-9.2 9.19a2 2 0 1 1-2.83-2.83l8.49-8.48" data-name="paperclip" transform="translate(-1.002 -.388)" style="stroke:#172b4d;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;fill:none"/>
+    </g>
+</svg>

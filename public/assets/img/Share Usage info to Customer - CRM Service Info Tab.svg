@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-Share_Usage_info_to_Customer_-_CRM_Service_Info_Tab">
+      <rect width="14" height="14"/>
+    </clipPath>
+  </defs>
+  <g id="Share_Usage_info_to_Customer_-_CRM_Service_Info_Tab" data-name="Share Usage info to Customer - CRM Service Info Tab" clip-path="url(#clip-Share_Usage_info_to_Customer_-_CRM_Service_Info_Tab)">
+    <path id="Path_2300" data-name="Path 2300" d="M27.551,28.374a.562.562,0,0,1-.562.562H18.832a.562.562,0,0,1-.562-.562V20.217a.562.562,0,0,1,.562-.562h5.614v-.749H18.832a1.313,1.313,0,0,0-1.311,1.311v8.158a1.313,1.313,0,0,0,1.311,1.311h8.158A1.313,1.313,0,0,0,28.3,28.374v-5.39h-.749ZM25.16,17.521v.749h3.247l-7.446,7.446.53.53L28.936,18.8v3.247h.749V17.521Z" transform="translate(-16.521 -16.521)" fill="#47afaf" stroke="#47afaf" stroke-width="0.5"/>
+  </g>
+</svg>

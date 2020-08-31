@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27.033" viewBox="0 0 27 27.033">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#606060}
+        </style>
+    </defs>
+    <g id="prefix__tickets" transform="translate(-.314)">
+        <g id="prefix__Group_2" data-name="Group 2" transform="translate(.314)">
+            <g id="prefix__Group_1" data-name="Group 1">
+                <circle id="prefix__Ellipse_1" cx="1.055" cy="1.055" r="1.055" class="prefix__cls-1" data-name="Ellipse 1" transform="translate(18.035 20.705)"/>
+                <circle id="prefix__Ellipse_2" cx="1.055" cy="1.055" r="1.055" class="prefix__cls-1" data-name="Ellipse 2" transform="translate(15.609 7.099)"/>
+                <path id="prefix__Path_14" d="M26.259 16.486h1.055v-6.328h-2.689a2.109 2.109 0 0 1-.972-3.981l.9-.468L21.865 0 .339 10.153H.314v6.328h1.055a2.109 2.109 0 1 1 0 4.219H.314v6.328h27v-6.323h-1.055a2.109 2.109 0 1 1 0-4.219zM14.666 5.728a1.054 1.054 0 0 0 1.905-.9l4.284-2.021.977 2.077a4.214 4.214 0 0 0-.859 5.273h-15.7zM25.2 22.681v2.243h-4.741a1.055 1.055 0 0 0-2.109 0H2.423v-2.243a4.219 4.219 0 0 0 0-8.171v-2.242h15.926a1.055 1.055 0 1 0 2.109 0H25.2v2.242a4.219 4.219 0 0 0 0 8.171z" class="prefix__cls-1" data-name="Path 14" transform="translate(-.314)"/>
+                <circle id="prefix__Ellipse_3" cx="1.055" cy="1.055" r="1.055" class="prefix__cls-1" data-name="Ellipse 3" transform="translate(18.035 14.377)"/>
+                <circle id="prefix__Ellipse_4" cx="1.055" cy="1.055" r="1.055" class="prefix__cls-1" data-name="Ellipse 4" transform="translate(18.035 17.541)"/>
+            </g>
+        </g>
+    </g>
+</svg>

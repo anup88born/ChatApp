@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Chat_Menu">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Chat_Menu" data-name="Chat Menu" clip-path="url(#clip-Chat_Menu)">
+    <path id="Path_2287" data-name="Path 2287" d="M41.22,18.9H20.241a2.869,2.869,0,0,0-2.866,2.866V35.891a2.869,2.869,0,0,0,2.866,2.866h5.818L30.73,44.9l4.672-6.14H41.22a2.869,2.869,0,0,0,2.866-2.866V21.768A2.869,2.869,0,0,0,41.22,18.9Zm1.228,16.989a1.23,1.23,0,0,1-1.228,1.228H34.591L30.73,42.192,26.87,37.119H20.241a1.23,1.23,0,0,1-1.228-1.228V21.768a1.23,1.23,0,0,1,1.228-1.228H41.22a1.23,1.23,0,0,1,1.228,1.228Zm-18.4-8.965H37.417V25.288H24.044Zm0,5.117H37.417V30.4H24.044Z" transform="translate(-6.875 -7.402)" fill="#606060" stroke="#606060" stroke-width="0.2"/>
+  </g>
+</svg>

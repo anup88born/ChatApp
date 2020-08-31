@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Transfer_Chat">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Transfer_Chat" data-name="Transfer Chat" clip-path="url(#clip-Transfer_Chat)">
+    <g id="Group_1314" data-name="Group 1314" transform="translate(2.278 2.278)">
+      <path id="Path_708" data-name="Path 708" d="M0,0H19.443V19.443H0Z" fill="none"/>
+      <path id="Path_709" data-name="Path 709" d="M15.2,9.917A8.484,8.484,0,0,0,1.54,13.659l1.912.632a6.458,6.458,0,0,1,10.3-2.933l-2.933,2.933h7.291V7Z" transform="translate(-0.292 -1.329)" fill="#172b4d"/>
+    </g>
+  </g>
+</svg>

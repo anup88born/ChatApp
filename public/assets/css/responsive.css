@@ -1,0 +1,208 @@
+@media (max-width:600px){
+    .loginHome
+    {
+       
+        width:100%;
+    }
+    .customer-login-close {
+     
+        margin-top: -20px;
+      
+    }
+    .login-forgotPassword {
+   
+        margin-top: -27px;
+      
+    }
+
+    .openChat {
+        bottom: 530px;
+      
+    }
+    .chatUser-size {
+        width: 90%;
+      
+        right: 15px;
+     
+    }
+    .agent-LoginBox {
+      
+        width: 350px;
+      
+        top: 50%;
+        left: 45px;
+    }
+	
+
+
+}
+
+
+
+@media (min-width:1420px) and (max-width:1440px) {
+    .agent-Login-name {
+      
+        right: 0;
+    }
+    .agent-LoginBox {
+      
+        top: 55%;
+       
+    }
+    /* .chat .chat-history {
+      
+        height: 548px;
+       
+    } */
+    .subbar {
+       
+        
+        top: 11%;
+        
+        
+    }
+    .sidebar {
+       
+        top: 11%;
+    }
+    
+    .sideSubMenuWidth {
+        max-width: 27% !important;
+    }
+    .chatWidth {
+        max-width: 48% !important;
+    }
+
+    /* .makeStyles-root-97 {
+        width: 625px !important;
+      
+    } */
+    /* .chat .chat-history {
+        padding: 30px 70px 10px 0px;
+       
+    } */
+	.btn-cstm {
+		margin-left: -10px !important;
+	}
+	.table-responsive {
+		padding: 0px;
+		margin-top: -30px;
+	}
+
+}
+
+
+
+@media (min-width:1200px) and (max-width:1300px) {
+    .dropBtnAgent {
+		right: 44px;
+	}
+    .agent-Login-name {
+       right: 0;
+    }
+    .agent-LoginBox {
+       
+        top: 50%;
+       left:32%;
+    }
+    .currentTxt {
+      
+        font-size: 14px;
+      
+    }
+    /* .chat .chat-history {
+        height: 460px;
+    } */
+
+    .sideSubMenuWidth {
+        max-width: 28% !important;
+    }
+    .subbar {
+       
+        
+        top: 13%;
+        
+        
+    }
+    .sidebar {
+       
+        top: 13%;
+    }
+    
+   
+    .chatWidth {
+        max-width: 47% !important;
+    }
+
+    /* .makeStyles-root-97 {
+        width: auto !important;
+    } */
+    .addTag .chatUser-chatting-img {
+       
+        right: -70px;
+    }
+    /* .chat .chat-history {
+        padding: 30px 70px 10px 0px;
+       
+    } */
+	.btn-cstm {
+		margin-left: -10px !important;
+	}
+	.table-responsive {
+		padding: 0px;
+		margin-top: -30px;
+	}
+
+}
+@media (min-width:1080px) and (max-width:1920px) {
+    .bgImage {
+        height: 1080px;
+    }
+}
+
+
+@media (min-width:1300px) and (max-width:1380px) {
+    .subbar {
+       
+        top: 12%;
+        
+    }
+    .sidebar {
+      
+        top: 12%;
+    }
+	.btn-cstm {
+		margin-left: -10px !important;
+    }
+    .bgImage {
+        height: 1300px;
+    }
+}   
+@media (min-width:1400px) and (max-width:1420px) {
+
+	/* .makeStyles-root-97 {
+		width: auto !important;
+   
+	} */
+	.btn-cstm {
+		margin-left: -10px !important;
+	}
+
+}
+@media (max-width: 1300px) and (min-width: 1200px) {
+	/* .chat .chat-history {
+		height: 617px;
+	} */
+}
+@media (max-width: 1280px) and (min-width: 800px) {
+	.dropBtnAgent {
+		right: 44px;
+	}
+	
+}
+@media (max-width: 1280px) and (min-width: 800px) {
+	.dropBtnAgent {
+		right: 44px;
+	}
+	
+}

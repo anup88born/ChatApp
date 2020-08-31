@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-Ticket_Assigned_Notification">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="Ticket_Assigned_Notification" data-name="Ticket Assigned Notification" clip-path="url(#clip-Ticket_Assigned_Notification)">
+    <g id="Group_1309" data-name="Group 1309" transform="translate(-1306 -205)">
+      <circle id="Ellipse_503" data-name="Ellipse 503" cx="22.5" cy="22.5" r="22.5" transform="translate(1309 208)" fill="#47afaf" opacity="0.104"/>
+      <g id="tickets" transform="translate(1319.825 219.143)">
+        <g id="Group_2" data-name="Group 2" transform="translate(0.314)">
+          <g id="Group_1" data-name="Group 1">
+            <circle id="Ellipse_1" data-name="Ellipse 1" cx="0.887" cy="0.887" r="0.887" transform="translate(15.176 17.423)" fill="#47afaf"/>
+            <circle id="Ellipse_2" data-name="Ellipse 2" cx="0.887" cy="0.887" r="0.887" transform="translate(13.135 5.974)" fill="#47afaf"/>
+            <path id="Path_14" data-name="Path 14" d="M22.147,13.873h.887V8.548H20.771a1.775,1.775,0,0,1-.818-3.35l.756-.394L18.449,0,.335,8.544l0,0H.314v5.325H1.2a1.775,1.775,0,1,1,0,3.55H.314v5.325h22.72V17.423h-.887a1.775,1.775,0,1,1,0-3.55ZM12.391,4.82a.887.887,0,0,0,1.6-.756l3.6-1.7.822,1.748A3.546,3.546,0,0,0,17.7,8.548H4.487Zm8.868,14.266v1.887H17.265a.887.887,0,0,0-1.775,0H2.089V19.086a3.551,3.551,0,0,0,0-6.875V10.323h13.4a.887.887,0,1,0,1.775,0h3.994V12.21a3.551,3.551,0,0,0,0,6.875Z" transform="translate(-0.314)" fill="#47afaf"/>
+            <circle id="Ellipse_3" data-name="Ellipse 3" cx="0.887" cy="0.887" r="0.887" transform="translate(15.176 12.098)" fill="#47afaf"/>
+            <circle id="Ellipse_4" data-name="Ellipse 4" cx="0.887" cy="0.887" r="0.887" transform="translate(15.176 14.761)" fill="#47afaf"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

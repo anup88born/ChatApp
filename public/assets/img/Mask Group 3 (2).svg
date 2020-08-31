@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="70" viewBox="0 0 27 70">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_1545" d="M0 0H27V70H0z" class="prefix__cls-1" data-name="Rectangle 1545" transform="translate(140.55 .232)"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Mask_Group_3" data-name="Mask Group 3" transform="translate(-140.55 -.232)">
+        <g id="prefix__comment" transform="translate(140.857 22.935)">
+            <path id="prefix__Path_478" d="M22.935-.853H3.656A3.66 3.66 0 0 0 0 2.8v11.8a3.66 3.66 0 0 0 3.643 3.656v5.354l7.694-5.354h11.6a3.66 3.66 0 0 0 3.654-3.656V2.8a3.66 3.66 0 0 0-3.656-3.653zm2.1 15.454a2.1 2.1 0 0 1-2.1 2.1H10.849L5.2 20.628V16.7H3.656a2.1 2.1 0 0 1-2.1-2.1V2.8a2.1 2.1 0 0 1 2.1-2.1h19.279a2.1 2.1 0 0 1 2.1 2.1zm0 0" class="prefix__cls-1" data-name="Path 478" transform="translate(0 .853)"/>
+            <path id="prefix__Path_479" d="M109.735 84.032h12.357v1.558h-12.357zm0 0" class="prefix__cls-1" data-name="Path 479" transform="translate(-102.618 -78.527)"/>
+            <path id="prefix__Path_480" d="M109.735 135.282h12.357v1.558h-12.357zm0 0" class="prefix__cls-1" data-name="Path 480" transform="translate(-102.618 -126.453)"/>
+            <path id="prefix__Path_481" d="M109.735 186.532h12.357v1.558h-12.357zm0 0" class="prefix__cls-1" data-name="Path 481" transform="translate(-102.618 -174.379)"/>
+        </g>
+    </g>
+</svg>

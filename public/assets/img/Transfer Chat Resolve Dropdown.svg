@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-Transfer_Chat_Resolve_Dropdown">
+      <rect width="26" height="26"/>
+    </clipPath>
+  </defs>
+  <g id="Transfer_Chat_Resolve_Dropdown" data-name="Transfer Chat Resolve Dropdown" clip-path="url(#clip-Transfer_Chat_Resolve_Dropdown)">
+    <g id="Group_1300" data-name="Group 1300" transform="translate(4.362 3.912)">
+      <path id="Path_672" data-name="Path 672" d="M10.212,7.988V5L14.8,10.228l-4.589,5.228V12.394A7.78,7.78,0,0,0,3,16.2C3.656,12.469,5.622,8.735,10.212,7.988Z" transform="translate(-0.155 -1.507)" fill="#47afaf"/>
+      <path id="Path_673" data-name="Path 673" d="M17.491,0H0V17.491H17.491Z" fill="none"/>
+    </g>
+  </g>
+</svg>

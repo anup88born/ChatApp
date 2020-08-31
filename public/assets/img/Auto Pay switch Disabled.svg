@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-Auto_Pay_switch_Disabled">
+      <rect width="34" height="34"/>
+    </clipPath>
+  </defs>
+  <g id="Auto_Pay_switch_Disabled" data-name="Auto Pay switch Disabled" clip-path="url(#clip-Auto_Pay_switch_Disabled)">
+    <g id="Group_1307" data-name="Group 1307" transform="translate(1 6)">
+      <path id="Path_697" data-name="Path 697" d="M10.754,85.333H21.509a10.754,10.754,0,1,1,0,21.509H10.754a10.754,10.754,0,0,1,0-21.509Zm0,18.82a8.066,8.066,0,1,0-8.066-8.066A8.075,8.075,0,0,0,10.754,104.153Z" transform="translate(0 -85.333)" fill="rgba(71,175,175,0.23)"/>
+    </g>
+  </g>
+</svg>

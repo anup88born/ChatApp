@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-Check_Box_Active">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="Check_Box_Active" data-name="Check Box Active" clip-path="url(#clip-Check_Box_Active)">
+    <g id="Group_1316" data-name="Group 1316" transform="translate(5870 7537)">
+      <rect id="Rectangle_2317" data-name="Rectangle 2317" width="28" height="28" rx="5" transform="translate(-5869 -7536)" fill="#44a7a7"/>
+      <g id="Group_1315" data-name="Group 1315" transform="translate(-5867 -7534)">
+        <path id="Path_719" data-name="Path 719" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_720" data-name="Path 720" d="M23.715,12.517ZM9.691,17.251,5.73,13.29a1.1,1.1,0,0,1,1.556-1.556l3.189,3.178L18.066,7.32a1.1,1.1,0,0,1,1.556,1.556l-8.375,8.375A1.1,1.1,0,0,1,9.691,17.251Z" transform="translate(-0.858 -0.495)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

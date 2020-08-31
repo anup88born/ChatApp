@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.199" height="22.199" viewBox="0 0 22.199 22.199">
+  <g id="Group_462" data-name="Group 462" transform="translate(0.1 0.1)">
+    <path id="Path_667" data-name="Path 667" d="M11,0A11,11,0,1,0,22,11,11,11,0,0,0,11,0Zm0,21.267A10.267,10.267,0,1,1,21.267,11,10.267,10.267,0,0,1,11,21.267Z" fill="#009ce8" stroke="#009ce8" stroke-width="0.2"/>
+    <path id="Path_668" data-name="Path 668" d="M137.9,112.367h-.733V112h-.733v.367H135.7V112h-.733v.367h-.733V112H133.5v.367h-.733V112h-.733v.367H131.3V112h-.733v.367h-.733V112H129.1v.367h-.733a.367.367,0,0,0-.367.367V123a.367.367,0,0,0,.367.367H137.9a.367.367,0,0,0,.367-.367V112.733A.367.367,0,0,0,137.9,112.367Zm-.367,10.267h-8.8V113.1h.367v.367h.733V113.1h.733v.367h.733V113.1h.733v.367h.733V113.1h.733v.367h.733V113.1h.733v.367h.733V113.1h.733v.367h.733V113.1h.367Z" transform="translate(-122.133 -106.867)" fill="#009ce8" stroke="#009ce8" stroke-width="0.2"/>
+    <path id="Path_669" data-name="Path 669" d="M168,184h6.6v.733H168Z" transform="translate(-160.3 -175.567)" fill="#009ce8" stroke="#009ce8" stroke-width="0.2"/>
+    <path id="Path_670" data-name="Path 670" d="M168,232h6.6v.733H168Z" transform="translate(-160.3 -221.367)" fill="#009ce8" stroke="#009ce8" stroke-width="0.2"/>
+    <path id="Path_671" data-name="Path 671" d="M168,280h6.6v.733H168Z" transform="translate(-160.3 -267.167)" fill="#009ce8" stroke="#009ce8" stroke-width="0.2"/>
+  </g>
+</svg>

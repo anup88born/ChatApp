@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-Timeline_Tickets">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Timeline_Tickets" data-name="Timeline Tickets" clip-path="url(#clip-Timeline_Tickets)">
+    <g id="Group_1299" data-name="Group 1299" transform="translate(-1459.999 -922)">
+      <g id="Group_92" data-name="Group 92" transform="translate(1461.814 924.499)">
+        <g id="Ellipse_359" data-name="Ellipse 359" transform="translate(0.185 -0.499)" fill="rgba(245,60,86,0.15)" stroke="#f53c56" stroke-width="1">
+          <ellipse cx="28" cy="28.5" rx="28" ry="28.5" stroke="none"/>
+          <ellipse cx="28" cy="28.5" rx="27.5" ry="28" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_2296" data-name="Path 2296" d="M41.281,31.053,26.645,16.416a2.241,2.241,0,0,0-3.172,0L21.287,18.6l.54.54a1.86,1.86,0,0,1-1.316,3.175,1.843,1.843,0,0,1-1.314-.545l-.54-.541L16.42,23.468a2.246,2.246,0,0,0,0,3.172L31.057,41.278a2.242,2.242,0,0,0,3.172,0l2.238-2.238-.541-.54a1.86,1.86,0,0,1,2.63-2.63l.54.541,2.185-2.186A2.245,2.245,0,0,0,41.281,31.053ZM17.5,24.55l1.217-1.217a3.39,3.39,0,0,0,4.671-4.67L24.554,17.5a.73.73,0,0,1,1.01,0l3.563,3.563-8.063,8.063L17.5,25.559A.714.714,0,0,1,17.5,24.55Zm22.7,8.594-1.165,1.165a3.391,3.391,0,0,0-4.671,4.671L33.147,40.2a.732.732,0,0,1-1.01,0L22.144,30.2l8.063-8.063L40.2,32.134A.715.715,0,0,1,40.2,33.144Z" transform="translate(0.736 1.742)" fill="#f53c56" stroke="#f53c56" stroke-width="0.1"/>
+  </g>
+</svg>

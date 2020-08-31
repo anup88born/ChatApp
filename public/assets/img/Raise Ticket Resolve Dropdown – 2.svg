@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-Raise_Ticket_Resolve_Dropdown_2">
+      <rect width="26" height="26"/>
+    </clipPath>
+  </defs>
+  <g id="Raise_Ticket_Resolve_Dropdown_2" data-name="Raise Ticket Resolve Dropdown – 2" clip-path="url(#clip-Raise_Ticket_Resolve_Dropdown_2)">
+    <g id="Group_1301" data-name="Group 1301" transform="translate(4.361 4.132)">
+      <path id="Path_674" data-name="Path 674" d="M11.955,11.746H4.791v-1.3h7.164Zm0-2.6H4.791v-1.3h7.164Zm0-2.6H4.791v-1.3h7.164ZM3,14.994l.9-.975.9.975.9-.975.9.975.9-.975.9.975.9-.975.9.975.9-.975.9.975.9-.975.9.975V2l-.9.975L11.955,2l-.9.975L10.164,2l-.9.975L8.373,2l-.9.975L6.582,2l-.9.975L4.791,2l-.9.975L3,2Z" transform="translate(0.372 0.248)" fill="#47afaf"/>
+      <path id="Path_675" data-name="Path 675" d="M0,0H17.491V17.491H0Z" fill="none"/>
+    </g>
+  </g>
+</svg>

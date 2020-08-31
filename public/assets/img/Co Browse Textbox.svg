@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-Co_Browse_Textbox">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="Co_Browse_Textbox" data-name="Co Browse Textbox" clip-path="url(#clip-Co_Browse_Textbox)">
+    <g id="Group_1293" data-name="Group 1293" transform="translate(-29.52 -31.68)">
+      <path id="Path_2222" data-name="Path 2222" d="M30.52,37.325v9.158a3.651,3.651,0,0,0,3.634,3.64H40.6v2.714H36.4a.841.841,0,0,0,0,1.682H46.492a.841.841,0,0,0,0-1.682H42.286V50.123h6.45a3.651,3.651,0,0,0,3.645-3.645V42.833a.841.841,0,0,0-1.682,0v3.651a1.963,1.963,0,0,1-1.963,1.957H34.154a1.963,1.963,0,0,1-1.963-1.963V37.325a1.963,1.963,0,0,1,1.963-1.963h8.833a.841.841,0,1,0,0-1.682H34.154A3.65,3.65,0,0,0,30.52,37.325Z" fill="#172b4d" stroke="#172b4d" stroke-width="0.3"/>
+      <path id="Path_2223" data-name="Path 2223" d="M63.472,40.037h0a.836.836,0,0,0,.841-.83V34.552h0a.843.843,0,0,0-.062-.308h0a.86.86,0,0,0-.179-.275h0a.912.912,0,0,0-.275-.185h0a.794.794,0,0,0-.292-.084h-4.56a.841.841,0,0,0,0,1.682h2.535l-3.466,3.466a.836.836,0,0,0-.007,1.182l.007.007a.848.848,0,0,0,.594.247.838.838,0,0,0,.583-.247l3.455-3.449V39.2A.841.841,0,0,0,63.472,40.037Z" transform="translate(-11.966 -0.009)" fill="#172b4d" stroke="#172b4d" stroke-width="0.3"/>
+    </g>
+  </g>
+</svg>

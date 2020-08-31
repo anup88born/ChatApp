@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89" height="89" viewBox="0 0 89 89">
+    <defs>
+        <style>
+            .prefix__cls-3{fill:#1e3574;stroke:#1e3574;stroke-width:.5px}
+        </style>
+    </defs>
+    <g id="prefix__Group_1390" data-name="Group 1390" transform="translate(-886 -338)">
+        <g id="prefix__Group_1388" data-name="Group 1388" transform="translate(886 338)">
+            <g id="prefix__Group_920" data-name="Group 920" style="opacity:.098">
+                <circle id="prefix__Ellipse_353" cx="44.5" cy="44.5" r="44.5" data-name="Ellipse 353" style="fill:#7c97e3"/>
+            </g>
+        </g>
+        <g id="prefix__Group_1389" data-name="Group 1389" transform="translate(917.018 370.154)">
+            <path id="prefix__Path_2197" d="M19.449 27.239H2.437A2.44 2.44 0 0 1 0 24.8V11.437A2.44 2.44 0 0 1 2.437 9h17.012a2.44 2.44 0 0 1 2.437 2.437V24.8a2.44 2.44 0 0 1-2.437 2.439zM2.437 10.216a1.222 1.222 0 0 0-1.221 1.221V24.8a1.222 1.222 0 0 0 1.221 1.221h17.012A1.222 1.222 0 0 0 20.67 24.8V11.437a1.222 1.222 0 0 0-1.221-1.221z" class="prefix__cls-3" data-name="Path 2197" transform="translate(0 -1.704)"/>
+            <path id="prefix__Path_2198" d="M24.887 24.239h-1.216V8.437a1.222 1.222 0 0 0-1.221-1.221H3V6h19.45a2.44 2.44 0 0 1 2.437 2.437z" class="prefix__cls-3" data-name="Path 2198" transform="translate(.648 -2.352)"/>
+            <path id="prefix__Path_2199" d="M27.887 21.239h-1.216V5.437a1.222 1.222 0 0 0-1.221-1.221H6V3h19.45a2.44 2.44 0 0 1 2.437 2.437z" class="prefix__cls-3" data-name="Path 2199" transform="translate(1.296 -3)"/>
+        </g>
+    </g>
+</svg>

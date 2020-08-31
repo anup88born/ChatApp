@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-End_Chat_Resolve_Dropdown_3">
+      <rect width="26" height="26"/>
+    </clipPath>
+  </defs>
+  <g id="End_Chat_Resolve_Dropdown_3" data-name="End Chat Resolve Dropdown – 3" clip-path="url(#clip-End_Chat_Resolve_Dropdown_3)">
+    <g id="Group_1304" data-name="Group 1304" transform="translate(4 4)">
+      <g id="Group_1107" data-name="Group 1107">
+        <g id="Group_1105" data-name="Group 1105" transform="translate(0 1.765)">
+          <path id="Path_2257" data-name="Path 2257" d="M0,0H15.429V15.429H0Z" fill="none"/>
+          <path id="Path_2258" data-name="Path 2258" d="M14.214,4.571H12.929v5.786H4.571v1.286a.645.645,0,0,0,.643.643h7.071l2.571,2.571V5.214A.645.645,0,0,0,14.214,4.571ZM11.643,8.429V2.643A.645.645,0,0,0,11,2H2.643A.645.645,0,0,0,2,2.643v9L4.571,9.071H11A.645.645,0,0,0,11.643,8.429Z" transform="translate(-0.714 -0.714)" fill="#47afaf"/>
+        </g>
+        <ellipse id="Ellipse_562" data-name="Ellipse 562" cx="4.807" cy="4.698" rx="4.807" ry="4.698" transform="translate(7.797)" fill="#fff"/>
+      </g>
+      <g id="Group_1106" data-name="Group 1106" transform="translate(9.186 1.388)">
+        <path id="Path_2261" data-name="Path 2261" d="M3.31,0A3.31,3.31,0,1,1,0,3.31,3.31,3.31,0,0,1,3.31,0Z" transform="translate(0 0)" fill="#47afaf"/>
+        <path id="Path_720" data-name="Path 720" d="M6.347,9.246l-.869-.869a.241.241,0,0,1,.341-.341l.7.7L8.183,7.068a.241.241,0,0,1,.341.341L6.688,9.246A.241.241,0,0,1,6.347,9.246Z" transform="translate(-3.761 -4.889)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      </g>
+    </g>
+  </g>
+</svg>

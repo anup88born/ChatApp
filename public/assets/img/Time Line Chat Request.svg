@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="28" height="31" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Time_Line_Chat_Request">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Time_Line_Chat_Request" data-name="Time Line Chat Request" clip-path="url(#clip-Time_Line_Chat_Request)">
+    <g id="Group_1298" data-name="Group 1298" transform="translate(1.815 2.465)">
+      <g id="Ellipse_359" data-name="Ellipse 359" transform="translate(0.185 -0.465)" fill="rgba(45,206,152,0.3)" stroke="#2dce98" stroke-width="1">
+        <ellipse cx="28" cy="28.5" rx="28" ry="28.5" stroke="none"/>
+        <ellipse cx="28" cy="28.5" rx="27.5" ry="28" fill="none"/>
+      </g>
+      <g id="bell" transform="translate(14.185 12.535)" clip-path="url(#clip-path)">
+        <path id="Path_447" data-name="Path 447" d="M24.231,10.492a8.492,8.492,0,0,0-16.985,0C7.246,20.4,3,23.231,3,23.231H28.477S24.231,20.4,24.231,10.492" transform="translate(-1.585 -0.585)" fill="none" stroke="#2dce98" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_448" data-name="Path 448" d="M15.167,21a2.831,2.831,0,0,1-4.9,0" transform="translate(1.435 7.308)" fill="none" stroke="#2dce98" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
